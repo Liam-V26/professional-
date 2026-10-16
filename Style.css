@@ -283,6 +283,51 @@ body {
     margin-bottom: 2px;
 }
 
+.contact-form-section {
+    margin-bottom: 24px;
+}
+
+.contact-form-section .ribbon-heading {
+    margin-top: 0;
+}
+
+.contact-form {
+    display: grid;
+    gap: 8px;
+    color: #cbd5e1;
+    font-size: 0.85rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #475569;
+    border-radius: 4px;
+    background-color: #1e293b;
+    color: #f8fafc;
+    font: inherit;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    justify-self: start;
+    padding: 9px 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #1e3a8a;
+    color: #ffffff;
+    font: inherit;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2563eb;
+}
+
 /* Universal Page Footer Design */
 .page-footer {
     margin-top: auto; /* Sticks footer completely to the bottom edge */
